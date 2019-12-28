@@ -1,0 +1,13 @@
+name: main
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1 
+      - name: Check Github Action Runs
+        uses: rajatjindal/gh-actions-test@v1
+
