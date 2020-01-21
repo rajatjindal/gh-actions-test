@@ -1,6 +1,0 @@
-# action.yml
-name: 'gh-actions-test'
-description: 'automatically opens PR for upstream krew-index repo when you publish new release of your awesome plugin'
-runs:
-  using: 'docker'
-  image: 'docker://rajatjindal/gh-actions-test:v1'
